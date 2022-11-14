@@ -9,8 +9,8 @@ Install packages
 pip install -r requirements.txt
 ```
 
-Download NLTK resources
+Download NLTK resources & Setup
 ```
-python3 download_nltk_resources.py
+python3 setup.py
 ```
 

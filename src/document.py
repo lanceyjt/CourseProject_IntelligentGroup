@@ -57,7 +57,7 @@ class WebDocument(object):
             self.word_lst = lemmentized_word_lst
         if remove_stop_words:
             stop_words = set(stopwords.words('english'))
-            filtered_word_lst = [w for w in self.word_lst if not (w.lower() in stop_words or len(w) < 2)]
+            filtered_word_lst = [w for w in self.word_lst if not (w.lower() in stop_words or len(w) < 2 or len(w) > 45)]
             self.word_lst = filtered_word_lst
 
 
