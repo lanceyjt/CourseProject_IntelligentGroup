@@ -4,9 +4,9 @@ Please fork this repository and paste the github link of your fork on Microsoft 
 
 ## Setup
 
-Install packages
+Create Conda env & Install packages
 ```
-pip install -r requirements.txt
+conda create --name <env> --file requirements.txt
 ```
 
 Download NLTK resources
@@ -14,3 +14,7 @@ Download NLTK resources
 python3 download_nltk_resources.py
 ```
 
+Test run
+```
+python3 main.py > log.txt   
+```
