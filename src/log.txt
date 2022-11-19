@@ -1,0 +1,202 @@
+------- Analysis for Query: bm25 -------
+Invoke url iterator...
+Create web documents...
+URL list:  ['https://en.wikipedia.org/wiki/Okapi_BM25', 'https://en.wikipedia.org/wiki/Okapi_BM25#The_ranking_function', 'https://en.wikipedia.org/wiki/Okapi_BM25#IDF_information_theoretic_interpretation', 'https://en.wikipedia.org/wiki/Okapi_BM25#Modifications', 'https://en.wikipedia.org/wiki/Okapi_BM25#References', 'https://bm25.com/', 'https://bm25.com/pages/shop-ear-piercing-jewelry', 'https://bm25.com/pages/shop-plugs', 'https://bm25.com/pages/shop-belly-button-rings', 'https://bm25.com/pages/shop-nose-and-septum-jewelry', 'https://www.elastic.co/blog/practical-bm25-part-2-the-bm25-algorithm-and-its-variables', 'https://nlp.stanford.edu/IR-book/html/htmledition/okapi-bm25-a-non-binary-model-1.html', 'https://docs.vespa.ai/en/reference/bm25.html', 'https://opensourceconnections.com/blog/2015/10/16/bm25-the-next-generation-of-lucene-relevation/', 'https://www.analyticsvidhya.com/blog/2021/05/build-your-own-nlp-based-search-engine-using-bm25/', 'https://link.springer.com/10.1007%2F978-0-387-39940-9_921', 'https://pypi.org/project/rank-bm25/', 'https://kmwllc.com/index.php/2020/03/20/understanding-tf-idf-and-bm-25/', 'https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/LearningBM25MSRTechReport.pdf', 'https://www.ccs.neu.edu/home/vip/teach/IRcourse/1_retrieval_models/slides/m03.s03%20-%20TF-IDF%20and%20Okapi%20BM25.pdf', 'https://www.kaggle.com/code/nafisur/ranking-function-pln-bm25-final', 'http://ethen8181.github.io/machine-learning/search/bm25_intro.html', 'https://xapian.org/docs/bm25.html', 'https://www.staff.city.ac.uk/~sbrp622/papers/foundations_bm25_review.pdf', 'https://www.mathworks.com/help/textanalytics/ref/bm25similarity.html', 'https://radimrehurek.com/gensim_3.8.3/summarization/bm25.html', 'https://www.quora.com/How-does-BM25-work', 'https://dl.acm.org/doi/10.1145/2063576.2063871', 'https://www.teledynegasandflamedetection.com/en/gas-detectors/area/wireless/bm25-mx40', 'https://en.wikipedia.org/wiki/BM-25_(multiple_rocket_launcher)', 'https://www.semanticscholar.org/topic/Okapi-BM25/373900', 'https://lucene.apache.org/core/7_4_0/core/org/apache/lucene/search/similarities/BM25Similarity.html', 'http://ipl.cs.aueb.gr/stougiannis/bm25.html', 'http://terrier.org/docs/current/javadoc/org/terrier/matching/models/BM25.html', 'https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-021-01454-5', 'https://www.nargesa-usa.com/products/bm25-10-ton-hydraulic-vertical-broaching-machine', 'https://www.digikey.com/en/products/detail/hirose-electric-co-ltd/BM25-4S-2-V-53/5344191', 'https://huggingface.co/Luyu/bert-base-mdoc-bm25']
+Build corpus...
+Number of documents scanned: 1
+Number of documents scanned: 2
+Number of documents scanned: 3
+Number of documents scanned: 4
+Number of documents scanned: 5
+Number of documents scanned: 6
+Number of documents scanned: 7
+Number of documents scanned: 8
+Number of documents scanned: 9
+Number of documents scanned: 10
+Number of documents scanned: 11
+Number of documents scanned: 12
+Number of documents scanned: 13
+Number of documents scanned: 14
+Number of documents scanned: 15
+Number of documents scanned: 16
+Number of documents scanned: 17
+Number of documents scanned: 18
+Number of documents scanned: 19
+Number of documents scanned: 20
+Number of documents scanned: 21
+Number of documents scanned: 22
+Number of documents scanned: 23
+Number of documents scanned: 24
+Number of documents scanned: 25
+Number of documents scanned: 26
+Number of documents scanned: 27
+Number of documents scanned: 28
+Number of documents scanned: 29
+Number of documents scanned: 30
+30
+Docs with BM25 scores in descending order: 
+[('https://radimrehurek.com/gensim_3.8.3/summarization/bm25.html', 1.5100161413772168), ('https://www.mathworks.com/help/textanalytics/ref/bm25similarity.html', 1.494097127132451), ('https://en.wikipedia.org/wiki/Okapi_BM25', 1.481704557315693), ('https://en.wikipedia.org/wiki/Okapi_BM25#The_ranking_function', 1.481704557315693), ('https://en.wikipedia.org/wiki/Okapi_BM25#IDF_information_theoretic_interpretation', 1.481704557315693), ('https://en.wikipedia.org/wiki/Okapi_BM25#Modifications', 1.481704557315693), ('https://en.wikipedia.org/wiki/Okapi_BM25#References', 1.481704557315693), ('https://xapian.org/docs/bm25.html', 1.4635738075895108), ('http://ethen8181.github.io/machine-learning/search/bm25_intro.html', 1.4364755294434666), ('http://ipl.cs.aueb.gr/stougiannis/bm25.html', 1.434279534681845), ('https://opensourceconnections.com/blog/2015/10/16/bm25-the-next-generation-of-lucene-relevation/', 1.4259748293400079), ('https://kmwllc.com/index.php/2020/03/20/understanding-tf-idf-and-bm-25/', 1.42441094710548), ('https://dl.acm.org/doi/10.1145/2063576.2063871', 1.3666579001511194), ('https://www.semanticscholar.org/topic/Okapi-BM25/373900', 1.3583537188020487), ('https://www.teledynegasandflamedetection.com/en/gas-detectors/area/wireless/bm25-mx40', 1.3355369506805785), ('https://www.analyticsvidhya.com/blog/2021/05/build-your-own-nlp-based-search-engine-using-bm25/', 1.3254032499150294), ('https://docs.vespa.ai/en/reference/bm25.html', 1.3150388011702057), ('https://link.springer.com/10.1007%2F978-0-387-39940-9_921', 1.2861866822338137), ('https://pypi.org/project/rank-bm25/', 1.2747013225483885), ('https://www.elastic.co/blog/practical-bm25-part-2-the-bm25-algorithm-and-its-variables', 1.2664012156294664), ('https://lucene.apache.org/core/7_4_0/core/org/apache/lucene/search/similarities/BM25Similarity.html', 1.220783944267965), ('https://nlp.stanford.edu/IR-book/html/htmledition/okapi-bm25-a-non-binary-model-1.html', 1.1410325262931114), ('https://bm25.com/', 0.0), ('https://bm25.com/pages/shop-ear-piercing-jewelry', 0.0), ('https://bm25.com/pages/shop-plugs', 0.0), ('https://bm25.com/pages/shop-belly-button-rings', 0.0), ('https://bm25.com/pages/shop-nose-and-septum-jewelry', 0.0), ('https://www.kaggle.com/code/nafisur/ranking-function-pln-bm25-final', 0.0), ('https://www.quora.com/How-does-BM25-work', 0.0), ('https://en.wikipedia.org/wiki/BM-25_(multiple_rocket_launcher)', 0.0)]
+Create doc term matrix...
+Fit LDA model...
+Topic 1 for query 'bm25': 
+['connelly', 'id', 'k1', 'index', 'bm25', 'search', 'score', 'shane', 'term', 'document']
+Topic 2 for query 'bm25': 
+['titanium', 'close', 'shipping', 'clicker', 'sparkle', 'steel', 'product', 'cart', 'gold', 'ring']
+Topic 3 for query 'bm25': 
+['text', 'score', 'query', 'retrieval', 'information', 'idf', 'term', 'bm25', 'displaystyle', 'document']
+Topic 4 for query 'bm25': 
+['wikipedia', 'return', 'article', 'score', 'gun', 'mm', 'list', 'corpus', 'bm25', 'document']
+Topic 5 for query 'bm25': 
+['function', 'length', 'tf', 'search', 'idf', 'similarity', 'query', 'bm25', 'term', 'document']
+------- Analysis for Query: illinois -------
+Invoke url iterator...
+Create web documents...
+URL list:  ['https://www.illinois.gov/', 'https://www.illinois.gov/government.html', 'https://www.illinois.gov/business.html', 'https://www.illinois.gov/employment.html', 'https://www.illinois.gov/education.html', 'https://en.wikipedia.org/wiki/Illinois', 'https://en.wikipedia.org/wiki/History_of_Illinois', 'https://en.wikipedia.org/wiki/Illinois_Country', 'https://en.wikipedia.org/wiki/List_of_municipalities_in_Illinois', 'https://en.wikipedia.org/wiki/Geography_of_Illinois', 'https://www.cbssports.com/college-football/news/michigan-vs-illinois-score-takeaways-no-3-wolverines-stave-off-upset-on-late-fg-to-remain-undefeated/live/', 'https://www.freep.com/story/sports/college/university-michigan/wolverines/2022/11/19/michigan-football-game-score-vs-illinois-fighting-illini-time-tv/69662780007/', 'https://www.clickondetroit.com/all-about-ann-arbor/2022/11/19/no-3-michigan-survives-upset-bid-by-illinois-with-last-minute-field-goal-remains-undefeated/', 'https://twitter.com/YSUsports/status/1594070706597158912?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet', 'https://twitter.com/jimdunaway/status/1594069449979617284?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet', 'https://twitter.com/Castellani2014/status/1594069311252987906?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet', 'https://twitter.com/andygreder/status/1594068757801943046?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet', 'https://twitter.com/search?q=illinois&ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Esearch', 'https://illinois.edu/', 'https://www.ilsos.gov/', 'https://illinoisstate.edu/', 'https://www.ilga.gov/', 'https://www.uic.edu/', 'https://www.enjoyillinois.com/', 'https://www.isbe.net/', 'https://www.niu.edu/', 'https://www.illinoistollway.com/', 'https://www.chicago.gov/', 'https://www.bcbsil.com/', 'https://www.iit.edu/', 'https://www.illinoislottery.com/', 'https://siu.edu/', 'https://www.ameren.com/illinois/', 'https://www.elections.il.gov/', 'https://www.espn.com/college-football/team/_/id/356/illinois-fighting-illini', 'https://www.uillinois.edu/', 'https://www.illinoiscourts.gov/', 'https://icc.edu/']
+Build corpus...
+Number of documents scanned: 1
+Number of documents scanned: 2
+Number of documents scanned: 3
+Number of documents scanned: 4
+Number of documents scanned: 5
+Number of documents scanned: 6
+Number of documents scanned: 7
+Number of documents scanned: 8
+Number of documents scanned: 9
+Number of documents scanned: 10
+Number of documents scanned: 11
+Number of documents scanned: 12
+Number of documents scanned: 13
+Number of documents scanned: 14
+Number of documents scanned: 15
+Number of documents scanned: 16
+Number of documents scanned: 17
+Number of documents scanned: 18
+Number of documents scanned: 19
+HTTPSConnectionPool(host='www.ilsos.gov', port=443): Read timed out. (read timeout=2.5)
+Number of documents scanned: 20
+Number of documents scanned: 21
+Number of documents scanned: 22
+Number of documents scanned: 23
+Number of documents scanned: 24
+Number of documents scanned: 25
+Number of documents scanned: 26
+Number of documents scanned: 27
+Number of documents scanned: 28
+Number of documents scanned: 29
+Number of documents scanned: 30
+30
+Docs with BM25 scores in descending order: 
+[('https://www.enjoyillinois.com/', 1.694815068971162), ('https://en.wikipedia.org/wiki/Illinois', 1.6816561192795683), ('https://en.wikipedia.org/wiki/Illinois_Country', 1.671173465847685), ('https://www.illinois.gov/employment.html', 1.6682041474006106), ('https://en.wikipedia.org/wiki/History_of_Illinois', 1.6643652971791405), ('https://en.wikipedia.org/wiki/Geography_of_Illinois', 1.6630750881017407), ('https://www.illinoistollway.com/', 1.6592071532564743), ('https://www.iit.edu/', 1.6449533702826913), ('https://www.illinois.gov/education.html', 1.6354119684553343), ('https://illinois.edu/', 1.6342892368161848), ('https://www.illinois.gov/government.html', 1.6093463844411253), ('https://www.illinois.gov/business.html', 1.6078009055233455), ('https://www.ilga.gov/', 1.6053106232417858), ('https://www.illinois.gov/', 1.6001241712088548), ('https://www.cbssports.com/college-football/news/michigan-vs-illinois-score-takeaways-no-3-wolverines-stave-off-upset-on-late-fg-to-remain-undefeated/live/', 1.5977182035801405), ('https://illinoisstate.edu/', 1.593081823439078), ('https://www.illinoislottery.com/', 1.5881531023610909), ('https://www.uic.edu/', 1.5785060757550984), ('https://www.clickondetroit.com/all-about-ann-arbor/2022/11/19/no-3-michigan-survives-upset-bid-by-illinois-with-last-minute-field-goal-remains-undefeated/', 1.54867009064834), ('https://www.freep.com/story/sports/college/university-michigan/wolverines/2022/11/19/michigan-football-game-score-vs-illinois-fighting-illini-time-tv/69662780007/', 1.5474955853276997), ('https://www.bcbsil.com/', 1.5319784802664151), ('https://www.isbe.net/', 1.3955371834795496), ('https://en.wikipedia.org/wiki/List_of_municipalities_in_Illinois', 1.3953894373814455), ('https://www.niu.edu/', 1.3748507178011815), ('https://twitter.com/YSUsports/status/1594070706597158912?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet', 0.0), ('https://twitter.com/jimdunaway/status/1594069449979617284?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet', 0.0), ('https://twitter.com/Castellani2014/status/1594069311252987906?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet', 0.0), ('https://twitter.com/andygreder/status/1594068757801943046?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet', 0.0), ('https://twitter.com/search?q=illinois&ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Esearch', 0.0), ('https://www.chicago.gov/', 0.0)]
+Create doc term matrix...
+Fit LDA model...
+Topic 1 for query 'illinois': 
+['american', 'river', 'original', 'area', 'archived', 'retrieved', 'wa', 'chicago', 'state', 'illinois']
+Topic 2 for query 'illinois': 
+['information', 'pass', 'toll', 'tweet', 'construction', 'state', 'transportation', 'pay', 'illinois', 'tollway']
+Topic 3 for query 'illinois': 
+['november', 'nov', 'michigan', 'template', 'pm', 'student', 'chicago', '19', '2022', 'illinois']
+Topic 4 for query 'illinois': 
+['france', 'mississippi', 'state', 'new', 'river', 'country', 'fort', 'wa', 'french', 'illinois']
+Topic 5 for query 'illinois': 
+['clair', 'dupage', 'park', 'illinois', 'st', 'lake', 'cook', 'city', 'village', 'mi']
+------- Analysis for Query: LDA -------
+Invoke url iterator...
+Create web documents...
+URL list:  ['https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation', 'https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation#Overview', 'https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation#Model', 'https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation#Inference', 'https://en.wikipedia.org/wiki/Linear_discriminant_analysis', 'https://en.wikipedia.org/wiki/Linear_discriminant_analysis#LDA_for_two_classes', "https://en.wikipedia.org/wiki/Linear_discriminant_analysis#Fisher's_linear_discriminant", 'https://en.wikipedia.org/wiki/Linear_discriminant_analysis#Multiclass_LDA', 'https://en.wikipedia.org/wiki/Linear_discriminant_analysis#Incremental_LDA', 'https://ldaamerica.org/', 'https://ldaamerica.org/about-us/', 'https://ldaamerica.org/types-of-learning-disabilities/', 'https://ldaamerica.org/the-lda-podcast/', 'https://ldaamerica.org/advocacy/lda-position-papers/', 'https://towardsdatascience.com/latent-dirichlet-allocation-lda-9d1cd064ffa2', 'https://www.lda-architects.com/', 'https://www.jmlr.org/papers/volume3/blei03a/blei03a.pdf', 'https://www.ldaminnesota.org/', 'https://www.youtube.com/watch?v=azXCzI57Yfc', 'https://www.ldaarchitecture.com/', 'https://docs.aws.amazon.com/sagemaker/latest/dg/lda.html', 'https://ldadesigngroup.com/', 'https://open.spotify.com/artist/5FwDaIGy29GQC5d0MR7fKf', 'https://www.mygreatlearning.com/blog/understanding-latent-dirichlet-allocation/', 'https://www.ldacap.com/', 'https://www.k12.wa.us/student-success/graduation/waivers-and-cia/locally-determined-assessments-lda', 'http://scikit-learn.org/stable/modules/generated/sklearn.discriminant_analysis.LinearDiscriminantAnalysis.html', 'https://lda.senate.gov/', 'https://pythonhosted.org/lda/', 'https://www.ldaengineering.com/', 'https://www.ldapartners.com/', 'https://radimrehurek.com/gensim/models/ldamodel.html', 'https://www.ladental.org/', 'http://ldallc.com/', 'https://rdrr.io/cran/MASS/man/lda.html', 'https://cran.r-project.org/package=lda', 'https://csrc.nist.gov/glossary/term/lda', 'https://www.loyola.edu/department/hr/benefits/health-wellness/lda']
+Build corpus...
+Number of documents scanned: 1
+Number of documents scanned: 2
+Number of documents scanned: 3
+Number of documents scanned: 4
+Number of documents scanned: 5
+Number of documents scanned: 6
+Number of documents scanned: 7
+Number of documents scanned: 8
+Number of documents scanned: 9
+Number of documents scanned: 10
+Number of documents scanned: 11
+Number of documents scanned: 12
+Number of documents scanned: 13
+Number of documents scanned: 14
+Number of documents scanned: 15
+Number of documents scanned: 16
+Number of documents scanned: 17
+Number of documents scanned: 18
+Number of documents scanned: 19
+Number of documents scanned: 20
+Number of documents scanned: 21
+Number of documents scanned: 22
+Number of documents scanned: 23
+Number of documents scanned: 24
+Number of documents scanned: 25
+Number of documents scanned: 26
+Number of documents scanned: 27
+Number of documents scanned: 28
+Number of documents scanned: 29
+Number of documents scanned: 30
+30
+Docs with BM25 scores in descending order: 
+[('https://docs.aws.amazon.com/sagemaker/latest/dg/lda.html', 1.2359422141049294), ('https://ldaamerica.org/about-us/', 1.2074796021579577), ('https://ldaamerica.org/advocacy/lda-position-papers/', 1.2068682930384906), ('https://pythonhosted.org/lda/', 1.203456025252577), ('https://www.ldaminnesota.org/', 1.1976852739196855), ('https://lda.senate.gov/', 1.1955385700836691), ('https://ldaamerica.org/', 1.1934270669607114), ('https://www.lda-architects.com/', 1.1910997066453861), ('https://en.wikipedia.org/wiki/Linear_discriminant_analysis', 1.1799655348761369), ('https://en.wikipedia.org/wiki/Linear_discriminant_analysis#LDA_for_two_classes', 1.1799655348761369), ("https://en.wikipedia.org/wiki/Linear_discriminant_analysis#Fisher's_linear_discriminant", 1.1799655348761369), ('https://en.wikipedia.org/wiki/Linear_discriminant_analysis#Multiclass_LDA', 1.1799655348761369), ('https://en.wikipedia.org/wiki/Linear_discriminant_analysis#Incremental_LDA', 1.1799655348761369), ('https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation', 1.1722336652295609), ('https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation#Overview', 1.1722336652295609), ('https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation#Model', 1.1722336652295609), ('https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation#Inference', 1.1722336652295609), ('https://ldaamerica.org/the-lda-podcast/', 1.1620378436246748), ('https://www.k12.wa.us/student-success/graduation/waivers-and-cia/locally-determined-assessments-lda', 1.146130674146398), ('https://towardsdatascience.com/latent-dirichlet-allocation-lda-9d1cd064ffa2', 1.139771097669878), ('https://open.spotify.com/artist/5FwDaIGy29GQC5d0MR7fKf', 1.1373005388341968), ('https://ldaamerica.org/types-of-learning-disabilities/', 1.1211468404964202), ('https://www.ldapartners.com/', 1.1149428658849774), ('https://ldadesigngroup.com/', 1.1141834481848933), ('https://www.ldaarchitecture.com/', 1.0462895821240614), ('http://scikit-learn.org/stable/modules/generated/sklearn.discriminant_analysis.LinearDiscriminantAnalysis.html', 0.9953412628306856), ('https://www.ldaengineering.com/', 0.9054954421706891), ('https://www.ldacap.com/', 0.8471960130117524), ('https://www.youtube.com/watch?v=azXCzI57Yfc', 0.0), ('https://www.mygreatlearning.com/blog/understanding-latent-dirichlet-allocation/', 0.0)]
+Create doc term matrix...
+Fit LDA model...
+Topic 1 for query 'LDA': 
+['model', 'beta', 'prod', 'leftsum', 'varphi', 'document', 'word', 'theta', 'topic', 'displaystyle']
+Topic 2 for query 'LDA': 
+['api', 'contribution', 'registration', 'disclosure', 'id', 'lobbying', 'template', 'report', 'topic', 'lda']
+Topic 3 for query 'LDA': 
+['estimator', 'sample', 'data', 'like', 'class', 'nsamples', 'array', 'parameter', 'lda', 'shape']
+Topic 4 for query 'LDA': 
+['resource', 'episode', 'school', 'ld', 'education', 'child', 'student', 'lda', 'disability', 'learning']
+Topic 5 for query 'LDA': 
+['variable', 'class', 'linear', 'lda', 'function', 'mu', 'displaystyle', 'analysis', 'vec', 'discriminant']
+------- Analysis for Query: black friday -------
+Invoke url iterator...
+Create web documents...
+URL list:  ['https://blackfriday.com/', 'https://en.wikipedia.org/wiki/Black_Friday_(shopping)', 'https://www.theblackfriday.com/', 'https://www.theblackfriday.com/walmart-blackfriday.shtml', 'https://www.theblackfriday.com/black-friday-ads.php', 'https://www.theblackfriday.com/what-is-black-friday.shtml', 'https://www.theblackfriday.com/black-friday-store-hours.shtml', 'https://www.theverge.com/2022/11/19/23466039/sony-ps5-digital-games-dualsense-controller-meta-quest-2-bundle-black-friday-deal-sale', 'https://www.nytimes.com/wirecutter/money/best-early-black-friday-deals-2022-1119/', 'https://www.androidpolice.com/samsung-galaxy-z-fold-4-black-friday-2022-deal/', 'https://www.target.com/c/target-black-friday/-/N-5q0f2', 'https://bestblackfriday.com/', 'https://www.macys.com/p/black-friday/', 'https://www.bestbuy.com/site/electronics/black-friday/pcmcat225600050002.c?id=pcmcat225600050002', 'https://www.amazon.com/gp/goldbox', 'https://www.history.com/news/black-friday-thanksgiving-origins-history', 'https://www.techradar.com/black-friday/black-friday-deals-sales', 'https://www.walmart.com/shop/deals/black-friday', 'https://www.ign.com/articles/walmart-black-friday-sale-2022', 'https://www.ign.com/articles/black-friday-2022-date-deals-to-expect', 'https://www.macrumors.com/2022/11/18/apple-black-friday-deals-right-now/', 'https://www.cnet.com/black-friday/', 'https://www.nordstromrack.com/promo/black-friday', 'https://www.cnn.com/cnn-underscored/deals/best-black-friday-deals-2022-11-18', 'https://www.britannica.com/story/why-is-it-called-black-friday', 'https://www.homedepot.com/c/black_friday_savings', 'https://www.nytimes.com/wirecutter/black-friday/', 'https://www.nordstrom.com/browse/sale/black-friday', 'https://www.theverge.com/black-friday', 'https://store.ubi.com/us/black-friday/?lang=en_US', 'https://mashable.com/category/black-friday', 'https://www.t-mobile.com/offers/black-friday-deals', 'https://www.timeanddate.com/holidays/us/black-friday', 'https://www.cathaypacific.com/cx/en_US/offers/collection/blackfriday2022.html', 'https://www.usatoday.com/black-friday/', 'https://www.usatoday.com/story/money/reviewed/2022/11/18/black-friday-2022-deals-sales/10726294002/', 'https://www.digitaltrends.com/dtdeals/black-friday-deals/', 'https://blackfriday.gottadeal.com/']
+Build corpus...
+Number of documents scanned: 1
+Number of documents scanned: 2
+Number of documents scanned: 3
+Number of documents scanned: 4
+Number of documents scanned: 5
+Number of documents scanned: 6
+Number of documents scanned: 7
+Number of documents scanned: 8
+Number of documents scanned: 9
+Number of documents scanned: 10
+Number of documents scanned: 11
+Number of documents scanned: 12
+Number of documents scanned: 13
+Number of documents scanned: 14
+Number of documents scanned: 15
+Number of documents scanned: 16
+Number of documents scanned: 17
+Number of documents scanned: 18
+Number of documents scanned: 19
+Number of documents scanned: 20
+Number of documents scanned: 21
+Number of documents scanned: 22
+Number of documents scanned: 23
+Number of documents scanned: 24
+Number of documents scanned: 25
+HTTPSConnectionPool(host='www.homedepot.com', port=443): Read timed out. (read timeout=2.5)
+Number of documents scanned: 26
+Number of documents scanned: 27
+Number of documents scanned: 28
+Number of documents scanned: 29
+Number of documents scanned: 30
+30
+Docs with BM25 scores in descending order: 
+[('https://www.theblackfriday.com/black-friday-ads.php', 3.2350664795517994), ('https://www.theblackfriday.com/black-friday-store-hours.shtml', 3.232822851020147), ('https://www.theblackfriday.com/', 3.2154921346281045), ('https://www.theblackfriday.com/what-is-black-friday.shtml', 3.2037443375365164), ('https://blackfriday.com/', 3.1967227903401563), ('https://www.theblackfriday.com/walmart-blackfriday.shtml', 3.193155274180695), ('https://bestblackfriday.com/', 3.187301242556188), ('https://en.wikipedia.org/wiki/Black_Friday_(shopping)', 3.1857760124419805), ('https://www.cnet.com/black-friday/', 3.1711281960679076), ('https://mashable.com/category/black-friday', 3.169014821153089), ('https://www.nytimes.com/wirecutter/black-friday/', 3.16218293317461), ('https://www.target.com/c/target-black-friday/-/N-5q0f2', 3.1447766270740787), ('https://www.techradar.com/black-friday/black-friday-deals-sales', 3.1332151668986494), ('https://www.cnn.com/cnn-underscored/deals/best-black-friday-deals-2022-11-18', 3.12677455780559), ('https://www.history.com/news/black-friday-thanksgiving-origins-history', 3.1214150704085286), ('https://www.britannica.com/story/why-is-it-called-black-friday', 3.073197993238569), ('https://www.macrumors.com/2022/11/18/apple-black-friday-deals-right-now/', 3.0525989239340108), ('https://www.androidpolice.com/samsung-galaxy-z-fold-4-black-friday-2022-deal/', 3.0246451613937113), ('https://www.theverge.com/black-friday', 3.0237704061765194), ('https://www.nytimes.com/wirecutter/money/best-early-black-friday-deals-2022-1119/', 3.000088022917108), ('https://www.theverge.com/2022/11/19/23466039/sony-ps5-digital-games-dualsense-controller-meta-quest-2-bundle-black-friday-deal-sale', 2.8356584817601123), ('https://store.ubi.com/us/black-friday/?lang=en_US', 2.632684236795999), ('https://www.macys.com/p/black-friday/', 0.0), ('https://www.bestbuy.com/site/electronics/black-friday/pcmcat225600050002.c?id=pcmcat225600050002', 0.0), ('https://www.amazon.com/gp/goldbox', 0.0), ('https://www.walmart.com/shop/deals/black-friday', 0.0), ('https://www.ign.com/articles/walmart-black-friday-sale-2022', 0.0), ('https://www.ign.com/articles/black-friday-2022-date-deals-to-expect', 0.0), ('https://www.nordstromrack.com/promo/black-friday', 0.0), ('https://www.nordstrom.com/browse/sale/black-friday', 0.0)]
+Create doc term matrix...
+Fit LDA model...
+Topic 1 for query 'black friday': 
+['retrieved', 'archived', 'original', 'day', 'ad', 'store', 'november', '2022', 'black', 'friday']
+Topic 2 for query 'black friday': 
+['street', 'thing', 'review', 'pick', 'friday', 'like', 'black', 'price', 'best', 'deal']
+Topic 3 for query 'black friday': 
+['tv', 'apple', 'best', 'black', 'friday', 'amazon', 'deal', 'tab', 'open', 'new']
+Topic 4 for query 'black friday': 
+['far', 'edition', 'game', 'view', 'date', 'creed', 'assassin', 'release', 'wishlist', 'add']
+Topic 5 for query 'black friday': 
+['social', 'style', 'share', 'issue', 'demystified', 'question', 'day', 'video', 'history', 'britannica']

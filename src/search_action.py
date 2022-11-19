@@ -72,7 +72,9 @@ class SearchAction(object):
         query = self.query.lower() if query == "" else query.lower()
         tokenized_query = query.split()
         doc_scores = list(bm25.get_scores(tokenized_query))
-        url_lst = [x.url for x in self.document_lst if x.readable]
+        url_lst = list(self.corpus.keys())
+        
+        assert len(url_lst) == len(doc_scores), 'Number of urls and scores do not match'
         doc_scores_map = list(zip(url_lst, doc_scores))
         doc_scores_map.sort(reverse=True, key=lambda x: x[1])
         return doc_scores_map
