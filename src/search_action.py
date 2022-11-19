@@ -69,7 +69,7 @@ class SearchAction(object):
         assert len(self.corpus) > 0, 'Corpus is empty'
         tokenized_corpus = list(self.corpus.values())
         bm25 = BM25Okapi(tokenized_corpus)
-        query = self.query if query == "" else query
+        query = self.query.lower() if query == "" else query.lower()
         tokenized_query = query.split()
         doc_scores = list(bm25.get_scores(tokenized_query))
         url_lst = [x.url for x in self.document_lst if x.readable]
