@@ -1,3 +1,4 @@
+from operator import itemgetter
 from googlesearch import search
 from document import WebDocument
 from rank_bm25 import BM25Okapi
@@ -18,6 +19,7 @@ class SearchAction(object):
         self.url_iter = None
         self.document_lst = [] # list of WebDocument object
         self.corpus = {} # key: url, value: word list
+        self.word_freq = {}
 
     def invoke_url_iterator(self, num=10, pause=0.5, num_extra_doc=0):
         """
@@ -37,13 +39,17 @@ class SearchAction(object):
         url_lst = list(self.url_iter)
         self.document_lst = [WebDocument(url) for url in url_lst]
 
-    def build_corpus(self):
+    def build_corpus(self, calculate_word_freq = True):
         """
         Build corpus of a search action, return a list of tokenized list of words.
         """
         assert len(self.document_lst) > 0, 'Document list is empty' 
         count = 0
         corpus = {}
+
+        if calculate_word_freq:
+            word_freq = {}
+
         for d in self.document_lst:
             if d.url.endswith('.pdf') or d.url.endswith('.pdf/'):
                 continue # not able to parse pdf file appropriately
@@ -57,10 +63,31 @@ class SearchAction(object):
                 d.get_word_lst()
                 d.pre_processing()
                 corpus[d.url] = corpus.get(d.url, d.word_lst)
+                if calculate_word_freq:
+                    word_counter = d.get_word_frequency()
+                    word_freq[d.url] = word_counter
                 count += 1
                 print("Number of documents scanned: {x}".format(x=count))
 
         self.corpus = corpus
+
+        if calculate_word_freq:
+            self.word_freq = word_freq
+    
+    # def get_word_frequency(self, web_doc):
+    #     """
+    #     Get word frequency result of a WebDocument object, return a list of sorted [word, freq] pairs
+    #     """
+    #     if web_doc not in self.document_lst:
+    #         print("Web document not captured by the search action")
+    #         return
+    #     if web_doc.url not in self.corpus.keys():
+    #         print("Web document not identified in the corpus")
+    #         return
+    #     counter = web_doc.get_word_frequency()
+    #     word_freq = list(counter.items())
+    #     word_freq.sort(reverse=True, key=lambda x: x[1])
+    #     return word_freq
 
     def get_bm25_scores(self, query=""):
         """

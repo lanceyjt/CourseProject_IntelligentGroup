@@ -20,6 +20,7 @@ class WebDocument(object):
         self.url = url
         self.raw_content = ""
         self.word_lst = []
+        self.word_counter = {}
         self.readable = True
 
     def get_raw_content(self):
@@ -66,6 +67,19 @@ class WebDocument(object):
             stop_words = set(stopwords.words('english'))
             filtered_word_lst = [w for w in self.word_lst if not (w.lower() in stop_words or len(w) < 2 or len(w) > 45)]
             self.word_lst = filtered_word_lst
+    
+    def get_word_frequency(self):
+        """
+        Calculate frenquency of existing words in a document, update self.word_freq.
+        """
+        assert self.word_lst != [], 'Attribute word_lst is empty'
+        word_counter = {}
+        for w in self.word_lst:
+            word_counter[w] = word_counter.get(w,0) + 1
+        self.word_counter = word_counter
+
+        return word_counter
+
 
 
 

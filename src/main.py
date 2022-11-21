@@ -23,8 +23,8 @@ def main():
         print("====================")
         print("")
 
-        with open("./output/{q}_corpus.txt".format(q=query), "w") as file:
-            file.write(str(corpus))
+        #with open("./output/{q}_corpus.txt".format(q=query), "w") as file:
+        #    file.write(str(corpus))
 
         print("==== BM25 Ranking ====")
         res = sa.get_bm25_scores()
@@ -33,7 +33,26 @@ def main():
             print(d)
         print("======================")
         print("")
+
+        print("==== Word frequency ====")
+        word_freq = sa.word_freq
         
+        print("Most frequently used 5 words & frequency for each document:")
+        for d in res:
+            url = d[0]
+            print("Document url:", url)
+            word_freq_lst = list(word_freq.get(url).items())
+            word_freq_lst.sort(reverse=True, key=lambda x: x[1])
+            for i in range(5):
+                try:
+                    print(word_freq_lst[i])
+                except:
+                    pass
+            print("----")
+
+        print("========================")
+        print("")
+
         print("==== LDA Topic Modeling ====")
         topics = sa.lda_topic_model(num_topic=5, k=10)
         for i in range(len(topics)):
