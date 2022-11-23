@@ -70,7 +70,7 @@ class WebDocument(object):
     
     def get_word_frequency(self):
         """
-        Calculate frenquency of existing words in a document, update self.word_freq.
+        Calculate frenquency of existing words in a document, update self.word_counter.
         """
         assert self.word_lst != [], 'Attribute word_lst is empty'
         word_counter = {}

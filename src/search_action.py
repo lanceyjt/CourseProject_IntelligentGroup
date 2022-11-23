@@ -19,7 +19,7 @@ class SearchAction(object):
         self.url_iter = None
         self.document_lst = [] # list of WebDocument object
         self.corpus = {} # key: url, value: word list
-        self.word_freq = {}
+        self.word_freq = {} # key: url, value: dict of {word: frequ} for the document
 
     def invoke_url_iterator(self, num=10, pause=0.5, num_extra_doc=0):
         """
