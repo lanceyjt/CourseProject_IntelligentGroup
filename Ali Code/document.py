@@ -31,7 +31,7 @@ class WebDocument(object):
         try:
             response = requests.get(self.url, timeout=2.50)
         except Exception as err:
-            print(err)
+            # print(err)
             self.readable = False
             return
 
