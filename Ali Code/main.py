@@ -29,34 +29,31 @@ for d in bm25_scores:
 
 topics = sa.lda_topic_model(num_topic=5, k=10)
 
-print(bm25_scores)
-print("------")
-print(word_freq_to_return)
-print("------")
-print(topics)
+
+#This was the script called to communicate to the js script 
+#When Called by JS script, data_to_pass_back is data sent back to JSON
+data_to_pass_back = 'Document URL' # Document URLs with BM25 scores in descending order
+data_to_pass_back_1 = 'Word Frequency'
+data_to_pass_back_2 = 'Topics'
+
+input = ast.literal_eval(sys.argv[1])
+input_1 = ast.literal_eval(sys.argv[1])
+input_2 = ast.literal_eval(sys.argv[1])
+output = input 
+output_1 = input_1 
+output_2 = input_2
 
 
-# #This was the script called to communicate to the js script 
-# #When Called by JS script, data_to_pass_back is data sent back to JSON
-# data_to_pass_back = 'Document URL'
-# data_to_pass_back_1 = 'Word Frequency'
-# data_to_pass_back_2 = 'Topics'
+#output sent back to the script, please update this paramater below where your code is the output
+#output['data_returned'] = data_to_pass_back
+#output_1['data_returned_1'] = data_to_pass_back_1
+#output_2['data_returned_2'] = data_to_pass_back_2
+output['data_returned'] = bm25_scores
+output_1['data_returned_1'] = word_freq_to_return
+output_2['data_returned_2'] = topics
 
-# input = ast.literal_eval(sys.argv[1])
-# input_1 = ast.literal_eval(sys.argv[1])
-# input_2 = ast.literal_eval(sys.argv[1])
-# output = input 
-# output_1 = input_1 
-# output_2 = input_2
+#print data sent back, need help sending 3 different arguments with 1 arguemnt being sent for each line.
+print(json.dumps(output))
 
-
-# #output sent back to the script, please update this paramater below where your code is the output
-# output['data_returned'] = data_to_pass_back
-# output_1['data_returned_1'] = data_to_pass_back_1
-# output_2['data_returned_2'] = data_to_pass_back_2
-
-# #print data sent back, need help sending 3 different arguments with 1 arguemnt being sent for each line.
-# print(json.dumps(output))
-
-# #remove buffer with
-# sys.stdout.flush()
+#remove buffer with
+sys.stdout.flush()
