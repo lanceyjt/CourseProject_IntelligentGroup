@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "CS410 Web Scraper",
+    "version": "1.0",
+    "permissions": [
+        "tabs", 
+        "https://*/*"
+        ],
+    "content_scripts":[
+        {
+            "matches": ["https://www.google.com/search*"],
+            "js": ["CS410.js"]
+        }
+    ]
+}
