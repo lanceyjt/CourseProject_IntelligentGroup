@@ -1,12 +1,18 @@
 # CS410Project Intelligent Browsing via IntelligentGroup
 
 ### How to run the application
-#### Run the app independently
+##### Run the app independently
 To run this file independently please download or fork repo and use an Integrated Development Environment (IDE) that can run both JavaScript and Python as we recommend you use visual studio. 
 
-In order to run this file via IDE you must have node 19.2.0 version installed as well as python 3.11.0 which will automatically get downloaded with the node version and you can get the latest node version via this link: https://nodejs.org/en/download/current/ 
+In order to run this file via IDE you must have node 19.2.0 version installed as well as python 3.9.0 which will automatically get downloaded with the node version and you can get the latest node version via this link: https://nodejs.org/en/download/current/ 
 
-Once you have all the proper pre-requisites, you can run this code with the command: node CS410.js within the IDE.
+Once you have all the proper pre-requisites, you can run this code with the commands below within the IDE. The commands include: set up the Conda environment, download NLTK resources and run Javascript file.
+
+```
+conda create --name <env> --file requirements.txt
+python3 download_nltk_resources.py
+node CS410.js
+```
 
 This will run the JavaScript Code which will call the python scripts within the src file. It will be using a test text file called log.txt to and should output every document URL, Word Frequency and Topics for each document. This will ultimately help users fine the key words that would be helpful for there search query so the user can optimize what they are searching for and get ultimately the best results/documents that suites their needs.
 
@@ -34,5 +40,5 @@ For any question’s on how the Project works or questions about the project/cod
 
 7. LDA topic modeling will be applied to the corpus of documents. The app will provide 5 topics, each of which is represented as the top 10 words in the topic.
 
-** The information of BM25 scores, word frequencies, and topic modeling results will be used to inspire the user to refine the query terms, and will let the user have an overview of each document, and topics covered in the search result. **
+**The information of BM25 scores, word frequencies, and topic modeling results will be used to inspire the user to refine the query terms, and will let the user have an overview of each document, and topics covered in the search result.** 
 
