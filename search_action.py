@@ -67,7 +67,7 @@ class SearchAction(object):
                     word_counter = d.get_word_frequency()
                     word_freq[d.url] = word_counter
                 count += 1
-                print("Number of documents scanned: {x}".format(x=count))
+                # print("Number of documents scanned: {x}".format(x=count))
 
         self.corpus = corpus
 
@@ -116,12 +116,12 @@ class SearchAction(object):
         corpus_text = [" ".join(x) for x in self.corpus.values()]
 
         # Create doc term matrix
-        print("Create doc term matrix...")
+        # print("Create doc term matrix...")
         count_vect = CountVectorizer(stop_words='english')
         doc_term_matrix = count_vect.fit_transform(corpus_text)
 
         # Fit LDA model
-        print("Fit LDA model...")
+        # print("Fit LDA model...")
         LDA = LatentDirichletAllocation(n_components=num_topic, random_state=111)
         LDA.fit(doc_term_matrix)
 
@@ -131,12 +131,3 @@ class SearchAction(object):
             topics.append(top_words)
 
         return topics
-
-
-
-        
-    
-
-
-
-

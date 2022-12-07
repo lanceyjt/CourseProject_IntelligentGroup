@@ -22,7 +22,7 @@ const data_to_pass_in =
     topics: undefined
 };
 
-const python_process = spawner('py', ['./main.py', JSON.stringify(data_to_pass_in)]);
+const python_process = spawner('python3', ['./main.py', JSON.stringify(data_to_pass_in)]);
 python_process.stdout.on('data', (data) => {
     console.log('Data recieved from python script:', JSON.parse(data.toString()))
     });
