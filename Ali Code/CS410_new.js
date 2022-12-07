@@ -4,7 +4,7 @@ const spawner = require('child_process').spawn;
 //Create Object to grab from python script
 const data_to_pass_in =
 {
-    query_input: 'bm25', // the query input
+    query_input: 'world cup', // the query input
     bm25_scores: undefined,
     word_freq: undefined,
     topics: undefined

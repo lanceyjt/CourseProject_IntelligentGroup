@@ -10,6 +10,7 @@ Once you have all the proper pre-requisites, you can run this code with the comm
 
 ```
 conda create --name <env> --file requirements.txt
+conda activate <env>
 python3 download_nltk_resources.py
 node CS410.js
 ```

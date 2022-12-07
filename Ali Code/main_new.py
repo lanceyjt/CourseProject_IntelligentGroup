@@ -13,7 +13,7 @@ input = ast.literal_eval(sys.argv[1])
 
 output = input
 
-query = "bm25"
+query = input['query_input']
 
 sa = search_action.SearchAction(query, 30)
 sa.invoke_url_iterator(num_extra_doc=8)
