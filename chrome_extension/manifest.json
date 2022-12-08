@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+  
+    "name": "Intelligent Search",
+    "description": "This extension gives bm25 scores, word frequency and topics covered in web documents.",
+    "version": "1.0",
+
+    "browser_action": {
+      "default_popup": "popup.html"
+    },
+  
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+  
+    "content_security_policy": "script-src 'self' https://*.google.com 'unsafe-eval'; object-src 'self'",
+    "permissions": [
+          "tabs",
+          "http://127.0.0.1:8000/",
+          "background",
+          "identity",
+          "notifications"
+      ]
+  }
