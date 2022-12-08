@@ -5,8 +5,8 @@ $(function(){
                 chrome.runtime.sendMessage(
                     message = {query_input: query_input},
                     function(response) {
-                        result = response.farewell;
-                        alert(result['bm25_scores'])
+                        url = response.url;
+                        chrome.tabs.create({url: url})
                     }
                     );
 		}
