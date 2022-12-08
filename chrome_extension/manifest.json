@@ -11,15 +11,19 @@
   
     "background": {
       "scripts": ["background.js"],
-      "persistent": false
+      "persistent": true
     },
-  
+    "host_permissions": [
+      "https://*/",
+      "http://*/"
+    ],
     "content_security_policy": "script-src 'self' https://*.google.com 'unsafe-eval'; object-src 'self'",
     "permissions": [
           "tabs",
           "http://127.0.0.1:8000/",
           "background",
           "identity",
-          "notifications"
+          "notifications",
+          "nativeMessaging"
       ]
   }
