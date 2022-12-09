@@ -17,7 +17,7 @@ For any question’s on how the Project works or questions about the project/cod
 
 1. Clone the Github Repo:
 ```
-git clone -b django-server https://github.com/lanceyjt/CourseProject_IntelligentGroup.git 
+git clone https://github.com/lanceyjt/CourseProject_IntelligentGroup.git 
 ```
 2. Set up & activate Conda environment (Replace <env> by a name of your choice):
 
