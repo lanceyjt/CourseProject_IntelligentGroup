@@ -114,6 +114,6 @@ The file is constructed by Chrome API with a listener, it waits for a request to
 
 ## Output Example
 
-![image](/images/output_exampe_1.png)
+![image](/images/output_example_1.png)
 
-![image](/images/output_exampe_2.png)
+![image](/images/output_example_2.png)
