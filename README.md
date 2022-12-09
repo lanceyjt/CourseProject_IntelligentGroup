@@ -1,5 +1,7 @@
 # CS410Project Intelligent Browsing via IntelligentGroup
 
+Demo Video Link: https://drive.google.com/file/d/13RUHbyXD1uhBXgWowbY-RiNBWmN_Wf-T/view?usp=sharing
+
 ## Overview
 The code provides the information below when a user enter a search term in the Chrome extension:
 - BM25 scores for first 30 documents in Google search and re-rank in descending order;
