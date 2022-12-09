@@ -2,9 +2,9 @@
 
 ## Overview
 The code provides the information below when a user enter a search term in the Chrome extension:
-BM25 scores for first 30 documents in Google search and re-rank in descending order;
-Top 5 most frequently used words and the corresponding word frequency for each document;
-5 topics covered in the 30 documents, and each topic is represented by the first 10 words.
+- BM25 scores for first 30 documents in Google search and re-rank in descending order;
+- Top 5 most frequently used words and the corresponding word frequency for each document;
+- 5 topics covered in the 30 documents, and each topic is represented by the first 10 words.
 
 It can be used for users wanting to modify their search query and wanting to find results that have to do mainly with the topic that satisfies their needs. It can also give a user an overview of each document as well.
 
@@ -70,6 +70,7 @@ After you have successfully done the steps in the last section, please follow th
 5. A file explorer window will pop-up
 6. Go to the “chrome_extension” subfolder from the code cloned from git, and click “Select”
 7. You should be able see an extension named as “Intelligent Search 1.0” now
+
 ![image](/images/extension_in_chrome.png)
 
 8. Make sure the extension is turned on by toggling the button at the bottom right
@@ -77,6 +78,7 @@ After you have successfully done the steps in the last section, please follow th
 **Important Note: To make sure the Chrome Extension works properly, please make sure the local host created by Django in the previous step is active.**
 
 9. To use the extension, click the extension icon at the right of the address bar, then click the extension “Intelligent Search 1.0”. The UI of the extension should show up.
+
 ![image](/images/extension_ui.png)
 
 10. Enter the query you want to analyze, then click analyze. 
